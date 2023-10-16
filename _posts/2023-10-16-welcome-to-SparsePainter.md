@@ -3,8 +3,6 @@ title: "Welcome to SparsePainter!"
 layout: single
 sidebar:
   nav: "docs"
-categories:
-  - blog
 ---
 
 Welcome to SparsePainter. You can find the [introduction](https://sparsepainter.github.io/), 
