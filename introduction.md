@@ -11,7 +11,3 @@ title: Introduction
 -   Authors:  
     Yaoling Yang (<yaoling.yang@bristol.ac.uk>)  
     Daniel Lawson (<dan.lawson@bristol.ac.uk>)
-
-# Dependencies
-
-SparsePainter depends on [Armadillo](https://arma.sourceforge.net/download.html) to compute AAS and [gzstream](https://www.cs.unc.edu/Research/compgeom/gzstream/) to read the write gzipped files.
