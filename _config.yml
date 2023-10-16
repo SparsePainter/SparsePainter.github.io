@@ -10,14 +10,6 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-defaults:
-  # For all .md files
-  - scope:
-      path: "" # Matches all files
-      type: "pages"
-    values:
-      layout: "single"
-
 # Add main navigation links
 main:
   - title: Introduction
