@@ -1,6 +1,7 @@
 ---
-layout: custom-page
 title: Target-vs-Reference painting
+sidebar:
+  nav: "docs"
 ---
 
 # Target-vs-Reference painting
