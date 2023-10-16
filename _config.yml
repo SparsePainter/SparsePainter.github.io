@@ -3,7 +3,11 @@ title: SparsePainter
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 
+# Add permalink structure
+permalink: /:categories/:title/
+
 plugins:
+  - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
