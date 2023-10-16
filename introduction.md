@@ -12,19 +12,6 @@ title: Introduction
     Yaoling Yang (<yaoling.yang@bristol.ac.uk>)  
     Daniel Lawson (<dan.lawson@bristol.ac.uk>)
 
-# Installation
-
-To install SparsePainter, please follow the below steps.  
-``git clone https://github.com/YaolingYang/SparsePainter``  
-``cd SparsePainter``  
-``wget -O armadillo-12.6.5.tar.xz "https://sourceforge.net/projects/arma/files/armadillo-12.6.5.tar.xz/download"``  
-``tar -xf armadillo-12.6.5.tar.xz``  
-``mv armadillo-12.6.5 armadillo``  
-``cd armadillo``    
-``cmake .``  
-``cd ..``  
-``make``  
-
 # Dependencies
 
 SparsePainter depends on [Armadillo](https://arma.sourceforge.net/download.html) to compute AAS and [gzstream](https://www.cs.unc.edu/Research/compgeom/gzstream/) to read the write gzipped files.
