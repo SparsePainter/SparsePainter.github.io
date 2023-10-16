@@ -1,6 +1,3 @@
-main:
-  - title: "Posts"
-    url: /posts/
 docs:
   - title: Introduction
     url: /
@@ -16,3 +13,5 @@ docs:
         url: /example/Reference-vs-Reference-painting.html
       - title: All-vs-All Painting
         url: /example/All-vs-All-painting.html
+   - title: "Posts"
+     url: /posts/
