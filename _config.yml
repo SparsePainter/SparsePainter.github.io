@@ -54,7 +54,7 @@ defaults:
 
 # Add main navigation links
 main:
-  - title: Introduction
+  - title: Home
     url: /
   - title: Installation
     url: /Installation.html
