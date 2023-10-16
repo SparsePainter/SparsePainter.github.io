@@ -6,6 +6,7 @@ title: Installation
 # Installation
 
 To install SparsePainter, please follow the below steps.  
+
 ``git clone https://github.com/YaolingYang/SparsePainter``  
 ``cd SparsePainter``  
 ``wget -O armadillo-12.6.5.tar.xz "https://sourceforge.net/projects/arma/files/armadillo-12.6.5.tar.xz/download"``  
