@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+
+<div id="sidebar">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/usages.html">Usages</a></li>
+        <li>Example
+            <ul>
+                <li><a href="/example/ex1.html">Ex1</a></li>
+                <li><a href="/example/ex2.html">Ex2</a></li>
+                <li><a href="/example/ex3.html">Ex3</a></li>
+            </ul>
+        </li>
+    </ul>
+</div>
+
+<div id="content">
+    {{ content }}
+</div>
+
+</body>
+</html>
