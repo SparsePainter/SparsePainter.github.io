@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: custom-page
 title: Target-vs-Reference painting
 ---
 
