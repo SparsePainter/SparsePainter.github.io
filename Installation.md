@@ -5,8 +5,6 @@ sidebar:
   nav: "docs"
 ---
 
-# Installation
-
 To install SparsePainter, please follow the below steps.  
 
 ``git clone https://github.com/YaolingYang/SparsePainter``  
