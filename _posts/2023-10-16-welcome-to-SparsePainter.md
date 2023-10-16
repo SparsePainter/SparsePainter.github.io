@@ -1,6 +1,6 @@
 ---
 title: "Welcome to SparsePainter!"
-layout: post
+layout: single
 sidebar:
   nav: "docs"
 categories:
