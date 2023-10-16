@@ -1,6 +1,7 @@
 ---
-layout: custom-page
 title: Installation
+sidebar:
+  nav: "docs"
 ---
 
 # Installation
