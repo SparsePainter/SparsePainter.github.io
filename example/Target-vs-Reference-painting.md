@@ -4,7 +4,7 @@ title: Target-vs-Reference painting
 ---
 
 # Target-vs-Reference painting
-The example dataset is available on [Github](https://github.com/YaolingYang/SparsePainter/example). This example includes 8000 reference individuals from 4 populations with 2091 SNPs (Both vcf version ``donor.vcf.gz`` and phase version ``donor.phase.gz`` are available), and the aim is to paint 500 target individuals (Both vcf version ``target.vcf.gz`` and phase version ``target.phase.gz`` are available) using the reference data for local ancestry estimates. We can paint with the following command:
+The example dataset is available on [Github](https://github.com/YaolingYang/SparsePainter/example). This example includes 8000 reference individuals from 4 populations with 2091 SNPs (Both vcf version ``donor.vcf.gz`` and phase version ``donor.phase.gz`` are available), and the aim is to paint 500 target individuals (Both vcf version ``target.vcf.gz`` and phase version ``target.phase.gz`` are available) using the reference data for **local ancestry estimates**, including **computing LDA, LDAS and AAS**. We can paint with the following command:
 
 (a) If your input file is in vcf or vcf.gz format:
 
@@ -19,3 +19,5 @@ The example dataset is available on [Github](https://github.com/YaolingYang/Spar
 ``
 
 The output file for this example includes ``target_vs_ref_prob.txt.gz``, ``target_vs_ref_chunklength.txt.gz``, and ``target_vs_ref_fixedlambda.txt``.
+
+If you want to compute LDA, LDAS or AAS, simply add -LDA, -LDAS or -AAS at the end of the above commands.
