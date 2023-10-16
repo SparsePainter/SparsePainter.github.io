@@ -1,6 +1,6 @@
 ---
 title: SparsePainter -- an efficient software for chromosome painting
-layout:single
+layout: single
 sidebar:
   nav: "docs"
 ---
