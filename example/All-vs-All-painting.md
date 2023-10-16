@@ -1,10 +1,9 @@
 ---
 title: All-vs-All painting
+layout: single
 sidebar:
   nav: "docs"
 ---
-
-# All-vs-All painting
 
 The example dataset is available on [Github](https://github.com/YaolingYang/SparsePainter/example).
 This example includes 8000 reference individuals with 2091 SNPs (Both vcf version ``donor.vcf.gz`` and phase version ``donor.phase.gz`` are available).   
