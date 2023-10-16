@@ -1,5 +1,6 @@
 ---
 title: Usages
+layout: single
 sidebar:
   nav: "docs"
 ---
