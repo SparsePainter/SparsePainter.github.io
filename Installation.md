@@ -1,5 +1,6 @@
 ---
 title: Installation
+layout: single
 sidebar:
   nav: "docs"
 ---
