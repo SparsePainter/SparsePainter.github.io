@@ -2,7 +2,7 @@ main:
   - title: "Posts"
     url: /posts/
 docs:
-  - title: Introduction
+  - title: Home
     url: /
   - title: Installation
     url: /Installation.html
