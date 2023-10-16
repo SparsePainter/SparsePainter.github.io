@@ -15,15 +15,9 @@ plugins:
   - jekyll-include-cache
 
 defaults:
-  # For all .md files except index.md
+  # For all .md files
   - scope:
       path: "" # Matches all files
-      type: "pages"
-    values:
-      layout: "single-wide"
-  # For index.md specifically
-  - scope:
-      path: "index.md" # Only matches index.md
       type: "pages"
     values:
       layout: "single"
