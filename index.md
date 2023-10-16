@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # [SparsePainter -- an efficient software for chromosome painting](https://github.com/YaolingYang/SparsePainter)
 
 # Introduction
