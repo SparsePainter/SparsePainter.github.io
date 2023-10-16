@@ -1,6 +1,7 @@
 ---
-layout: custom-page
 title: Introduction
+sidebar:
+  nav: "docs"
 ---
 
 # [SparsePainter -- an efficient software for chromosome painting](https://github.com/YaolingYang/SparsePainter)
