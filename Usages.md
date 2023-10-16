@@ -5,8 +5,6 @@ sidebar:
   nav: "docs"
 ---
 
-# Usage
-
 Either variant call format (VCF) or phase format is supported by **SparsePainter**. Inputting phase format is slightly faster than inputting the VCF format. To prepare the phase format for **SparsePainter**, you should get [PBWT](https://github.com/richarddurbin/pbwt) installed, which converts Variant Call Format (VCF) to phase format by the following command:
 
 ``
