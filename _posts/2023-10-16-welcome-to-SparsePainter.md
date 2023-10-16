@@ -1,6 +1,8 @@
 ---
 title: "Welcome to SparsePainter!"
 layout: single
+sidebar:
+  nav: "docs"
 categories:
   - blog
 ---
