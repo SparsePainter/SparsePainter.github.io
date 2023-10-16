@@ -1,5 +1,6 @@
 ---
 title: "Welcome to SparsePainter!"
+layout: simple
 categories:
   - blog
 ---
