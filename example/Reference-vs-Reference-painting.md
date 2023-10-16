@@ -1,6 +1,7 @@
 ---
-layout: custom-page
 title: Reference-vs-Reference painting
+sidebar:
+  nav: "docs"
 ---
 
 # Reference-vs-Reference painting
