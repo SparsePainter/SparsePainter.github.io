@@ -1,3 +1,6 @@
+main:
+  - title: "Posts"
+    url: /posts/
 docs:
   - title: Introduction
     url: /
