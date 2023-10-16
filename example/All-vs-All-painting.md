@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: custom-page
 title: All-vs-All painting
 ---
 
