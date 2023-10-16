@@ -31,6 +31,8 @@ defaults:
 main:
   - title: Introduction
     url: /
+  - title: Posts
+    url: /posts/
   - title: Installation
     url: /Installation.html
   - title: Usages and Parameters
