@@ -1,10 +1,1 @@
 theme: minimal-mistakes-jekyll
-main:
-  - title: "Introduction"
-    url: /Introduction.html
-  - title: "Installation"
-    url: /Installation.html
-  - title: "Usages and Parameters"
-    url: /Usages.html
-  - title: "Examples"
-    url: /example/
