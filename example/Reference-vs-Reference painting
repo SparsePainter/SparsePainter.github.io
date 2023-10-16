@@ -1,11 +1,11 @@
 ---
-layout: Reference vs Reference painting
-title: Example 2
+layout: default
+title: Reference-vs-Reference painting
 ---
 
-# Reference vs Reference painting
+# Reference-vs-Reference painting
 
-The example dataset is available on [Github](https://github.com/YaolingYang/SparsePainter/example). To paint the reference individuals against themselves with leave-one-out strategy, run with:
+The example dataset is available on [Github](https://github.com/YaolingYang/SparsePainter/example). This example includes 8000 reference individuals from 4 populations with 2091 SNPs (Both vcf version ``donor.vcf.gz`` and phase version ``donor.phase.gz`` are available), and the aim is to paint them against themselves for admixture estimation. We can paint with the following command:
 
 (a) If your input file is in vcf or vcf.gz format:
 
