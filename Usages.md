@@ -1,6 +1,7 @@
 ---
-layout: custom-page
 title: Usages
+sidebar:
+  nav: "docs"
 ---
 
 # Usage
