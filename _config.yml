@@ -31,8 +31,6 @@ defaults:
 main:
   - title: Introduction
     url: /
-  - title: Posts
-    url: /posts/
   - title: Installation
     url: /Installation.html
   - title: Usages and Parameters
@@ -45,3 +43,5 @@ main:
         url: /example/Reference-vs-Reference-painting.html
       - title: All-vs-All Painting
         url: /example/All-vs-All-painting.html
+  - title: Posts
+    url: /posts/
