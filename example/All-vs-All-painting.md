@@ -1,6 +1,7 @@
 ---
-layout: custom-page
 title: All-vs-All painting
+sidebar:
+  nav: "docs"
 ---
 
 # All-vs-All painting
