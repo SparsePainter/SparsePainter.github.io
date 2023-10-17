@@ -20,7 +20,7 @@ Here is an overview of the functionalities of SparsePainter and PBWTpaint.
 ![overview](/images/overview.png)
 
 -   Authors:  
-    Yaoling Yang (<yaoling.yang@bristol.ac.uk>)
+    Yaoling Yang (<yaoling.yang@bristol.ac.uk>)  
     Daniel Lawson (<dan.lawson@bristol.ac.uk>)
 
 -   Maintainer:  
