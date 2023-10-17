@@ -12,8 +12,12 @@ The detailed [installation instructions](https://sparsepainter.github.io/Install
 [usages and parameters](https://sparsepainter.github.io/Usages.html), and examples are available.  
 
 The main usage of **SparsePainter** is to perform [Target-vs-Reference painting](https://sparsepainter.github.io/example/Target-vs-Reference-painting.html) for local ancestry estimates, and
-[Reference-vs-Reference painting](https://sparsepainter.github.io/example/Reference-vs-Reference-painting.html) for admixture estimation. [PBWT -paintSparse](https://github.com/richarddurbin/pbwt) has extraordinary performance in doing 
-[All-vs-All painting](https://sparsepainter.github.io/example/All-vs-All-painting.html) for clustering.
+[Reference-vs-Reference painting](https://sparsepainter.github.io/example/Reference-vs-Reference-painting.html) for admixture estimation. [PBWTpaint](https://github.com/richarddurbin/pbwt) has extraordinary performance in doing 
+[All-vs-All painting](https://sparsepainter.github.io/example/All-vs-All-painting.html) for clustering. 
+
+Here is an overview of the functionalities of SparsePainter and PBWTpaint.
+
+![overview](/images/overview.png)
 
 -   Authors:  
     Yaoling Yang (<yaoling.yang@bristol.ac.uk>)
