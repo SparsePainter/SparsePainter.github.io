@@ -13,13 +13,29 @@ Please ensure you got [PBWT](https://github.com/richarddurbin/pbwt) installed, a
 (a) If your input file is in vcf or vcf.gz format:  
 
 ``
-pbwt --readVcfGT donor.vcf.gz -paintSparse all_vs_all
+./pbwt --readVcfGT donor.vcf.gz -paintSparse all_vs_all
 ``
 
 (b) If your input file is in phase of phase.gz format:
 
 ``
-pbwt --readPhase donor.phase.gz -paintSparse all_vs_all
+./pbwt --readPhase donor.phase.gz -paintSparse all_vs_all
 ``
 
 The output file for this example includes ``all_vs_all.chunkcounts.s.out.gz``, ``all_vs_all.chunklengths.s.out.gz``,``all_vs_all.regionchunkcounts.s.out.gz``, ``all_vs_all.regionchunklengths.s.out.gz`` and ``all_vs_all.nregions.s.out.gz``.
+
+It is also possible to do All-vs-All painting with SparsePainter, which is slightly more accurate than SPBWTpaint, but is much slower. Note that the popfile ``allvsall_popnames`` assigns each individual a different population, which is the requirement for doing all-vs-all painting.
+
+(a) If your input file is in vcf or vcf.gz format:  
+
+``
+./SparsePainter -reffile donor.vcf.gz -targetfile donor.vcf.gz -popfile allvsall_popnames.txt -mapfile map.txt -namefile refname.txt -out all_vs_all -chunklength
+``
+
+(b) If your input file is in phase of phase.gz format:
+
+``
+./SparsePainter -reffile donor.phase.gz -targetfile donor.phase.gz -popfile allvsall_popnames.txt -mapfile map.txt -namefile refname.txt -out all_vs_all -chunklength
+``
+
+The output file for this example includes ``all_vs_all.chunklength.txt.gz``, and ``all_vs_all.fixedlambda.txt``.
