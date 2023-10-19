@@ -9,7 +9,7 @@ sidebar:
 **SparsePainter** is a direct improvement of [ChromoPainter](https://people.maths.bris.ac.uk/~madjl/finestructure-old/chromopainter_info.html) and is orders of magnitudes faster than **ChromoPainter**.
 
 The detailed [installation instructions](https://sparsepainter.github.io/Installation.html), 
-[usages and parameters](https://sparsepainter.github.io/Usages.html), and examples are available.  
+[usages and commands](https://sparsepainter.github.io/Usages.html), and examples are available.  
 
 The main usage of **SparsePainter** is to perform [Target-vs-Reference painting](https://sparsepainter.github.io/example/Target-vs-Reference-painting.html) for local ancestry estimates, and
 [Reference-vs-Reference painting](https://sparsepainter.github.io/example/Reference-vs-Reference-painting.html) for admixture estimation. [PBWTpaint](https://github.com/richarddurbin/pbwt) has extraordinary performance in doing 
