@@ -58,7 +58,7 @@ main:
     url: /
   - title: Installation
     url: /Installation.html
-  - title: Usages and Parameters
+  - title: Usages and Commands
     url: /Usages.html
   - title: Examples
     children:
