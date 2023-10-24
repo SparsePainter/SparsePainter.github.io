@@ -5,7 +5,7 @@ sidebar:
   nav: "docs"
 ---
 
-The example dataset is available on [Github](https://github.com/YaolingYang/SparsePainter/example).
+The example dataset is available on [Github](https://github.com/YaolingYang/SparsePainter/tree/main/example).
 This example includes 8000 reference individuals with 2091 SNPs (Both vcf version ``donor.vcf.gz`` and phase version ``donor.phase.gz`` are available).   
 We want to paint all the individuals against all the individuals for **clustering**. PBWT paint is extremely fast at doing this. 
 Please ensure you got [PBWT](https://github.com/richarddurbin/pbwt) installed, and then run with the below commands:
