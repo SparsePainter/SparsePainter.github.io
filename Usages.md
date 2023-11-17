@@ -37,7 +37,7 @@ To run **SparsePainter**, enter the following command:
 
 **At least one of the below commands should also be given in order to run SparsePainter**
 
-* **-prob** Output the local ancestry probabilities for each target sample at each SNP. The output file format is a gzipped text file (.txt.gz).
+* **-prob** Output the local ancestry probabilities for each target sample at each SNP. The output file format is a gzipped text file (.txt.gz). The output probabilities need to be standardized by user because of the rounding errors by argument ``al``.
 
 * **-chunklength** Output the chunk length of each local ancestry for each target sample. The output file format is a text file (.txt).
 
@@ -74,6 +74,8 @@ To run **SparsePainter**, enter the following command:
 * **-Lmin [integer>0]** The minimal length of matches that **SparsePainter** searches for (**default=20**). Positions with fewer than ``nmatch`` matches of at least ``L_minmatch`` SNPs will retain all the matches of at least ``L_minmatch``. A larger ``L_minmatch`` increases both the accuracy and the computational time.
 
 * **-method [Viterbi/EM]** The algorithm used for estimating the recombination scaling constant (**default=Viterbi**).
+
+* **-al [number&isin;(0,1)]** The accuracy level of the output of local ancestry probabilities (**default=0.01**). This controls the size of the output file for local ancestry probabilities.
 
 * **-indfrac [number&isin;(0,1)]** The proportion of individuals used to estimate the recombination scaling constant (**default=0.1**).
 
