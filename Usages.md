@@ -11,7 +11,7 @@ Either variant call format (VCF) or phase format is supported by **SparsePainter
 pbwt -readVcfGT XXX.vcf -writePhase XXX.phase
 ``
 
-To run **SparsePainter**, enter the following command:
+To run **SparsePainter**, enter the following command: 
 
 ``
 ./SparsePainter [-command1 -command2 ...... -command3 parameter3 -command4 parameter4 ......]
