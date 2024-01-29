@@ -1,4 +1,10 @@
-# Extract the local ancestry probabilities of certain SNPs from the output files
+---
+title: Extract_output
+layout: single
+sidebar:
+  nav: "docs"
+---
+
 We have provided the C++ and R codes (C++ is much faster than R) to extract the local ancestry probabilities of certain SNPs from different output formats (constant, linear or raw) in the folder [process_output](https://github.com/YaolingYang/SparsePainter/process_output), which also includes the example data files.
 
 For example, to extract the local ancestry probabilities of 5000 SNPs (whose indices are contained in ``chr19_GWAS_SNPs.txt``) stored in constant form with C++, we first compile with
