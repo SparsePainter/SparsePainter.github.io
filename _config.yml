@@ -71,3 +71,5 @@ main:
         url: /example/All-vs-All-painting.html 
   - title: Extract_output
     url: /Extract_output.html
+  - title: Combine_output
+    url: /Combine_output.html
