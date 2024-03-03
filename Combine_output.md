@@ -19,7 +19,7 @@ Retain the first subfile, and then append the rows (excluding the first row) of 
 -aveSNPpainting:
 Compute the weighted average of all subfiles (weighted by the number of samples in each subfile).
 
--LDAS:
+-LDA and -LDAS:
 Compute the weighted average of all subfiles (weighted by the number of samples in each subfile).
 
 -AAS:
