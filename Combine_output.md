@@ -29,4 +29,4 @@ AAS cannot be directly merged. To obtain the overall AAS, please run SparsePaint
 
 Finally run the code:
 
-``./doAAS -aveSNPfile [your weighted average aveSNPpainting file] -out [your outputfile prefix]``
+``./doAAS -aveSNPfile [your weighted average aveSNPpainting file] -out [your output file prefix]``
