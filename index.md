@@ -15,7 +15,7 @@ The main usage of **SparsePainter** is to perform [Target-vs-Reference painting]
 [Reference-vs-Reference painting](https://sparsepainter.github.io/example/Reference-vs-Reference-painting.html) for admixture estimation. [PBWTpaint](https://github.com/richarddurbin/pbwt) has extraordinary performance in doing 
 [All-vs-All painting](https://sparsepainter.github.io/example/All-vs-All-painting.html) for clustering. 
 
-Reference: [Yang Y, Durbin D, Iversen A.K.N, Lawson DJ. Sparse haplotype-based fine-scale local ancestry inference at scale reveals recent selection on immune responses. medRxiv (2024).](https://www.medrxiv.org/content/10.1101/2024.03.13.24304206v1.article-info)
+Reference: [Yang, Y., Durbin, R., Iversen, A.K.N & Lawson, D.J. Sparse haplotype-based fine-scale local ancestry inference at scale reveals recent selection on immune responses. medRxiv (2024).](https://www.medrxiv.org/content/10.1101/2024.03.13.24304206v1.article-info)
 
 Here is an overview of the functionalities of SparsePainter and PBWTpaint.
 
