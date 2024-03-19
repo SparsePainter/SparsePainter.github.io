@@ -6,7 +6,7 @@ sidebar:
 ---
 
 
-We have provided the C++ and R codes (C++ is much faster than R) to extract the local ancestry probabilities of certain SNPs from different output formats (constant, linear or raw) in the folder [process_output](https://github.com/YaolingYang/SparsePainter/process_output), which also includes the example data files.
+We have provided the C++ and R codes (C++ is much faster than R) to extract the local ancestry probabilities of certain SNPs from different output formats (constant, linear or raw) in the folder [process_output](https://github.com/YaolingYang/SparsePainter/tree/main/process_output), which also includes the example data files.
 
 The .cpp files with suffix ``_hap.cpp`` extract probabilities for each haplotype, and those without ``_hap.cpp`` extract probabilities for each diploid, i.e. average over two copies.
 
