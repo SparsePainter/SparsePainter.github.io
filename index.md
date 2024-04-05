@@ -6,13 +6,13 @@ sidebar:
 
 [**SparsePainter**](https://github.com/YaolingYang/SparsePainter) is an efficient tool for local ancestry inference (LAI) coded in C++. It extends **PBWT** algorithm to find K longest matches at each position, and uses the **Hash Map** structure to implement the forward and backward algorithm in the Hidden Markov Model (HMM) leveraging the sparsity of haplotype matches. SparsePainter can infer **fine-scale local ancestry** (per individual per SNP) and **genome-wide total ancestry**, it also enables efficiently calculating [**Linkage Disequilibrium of Ancestry (LDA), LDA score (LDAS)**](https://github.com/YaolingYang/LDAandLDAscore) and [**Ancestry Anomaly Score (AAS)**](https://github.com/danjlawson/ms_paper) for understanding the population structure, evolution, selection, etc..  
 
-**SparsePainter GitHub repository: https://github.com/YaolingYang/SparsePainter**
+**SparsePainter** GitHub repository: [https://github.com/YaolingYang/SparsePainter](https://github.com/YaolingYang/SparsePainter)
 
-**PBWTpaint GitHub repository: https://github.com/richarddurbin/pbwt**
+**PBWTpaint** GitHub repository: [https://github.com/richarddurbin/pbwt](https://github.com/richarddurbin/pbwt)**
 
-**SparsePainter and PBWTpaint reference and use cases: [Yang, Y., Durbin, R., Iversen, A.K.N & Lawson, D.J. Sparse haplotype-based fine-scale local ancestry inference at scale reveals recent selection on immune responses. medRxiv (2024).](https://www.medrxiv.org/content/10.1101/2024.03.13.24304206v1.article-info)**
+**SparsePainter** and **PBWTpaint** reference and use cases: [Yang, Y., Durbin, R., Iversen, A.K.N & Lawson, D.J. Sparse haplotype-based fine-scale local ancestry inference at scale reveals recent selection on immune responses. medRxiv (2024).](https://www.medrxiv.org/content/10.1101/2024.03.13.24304206v1.article-info)
 
-**LDA, LDA score and AAS reference and use cases: [Barrie, W., Yang, Y., Irving-Pease, E.K. et al. Elevated genetic risk for multiple sclerosis emerged in steppe pastoralist populations. Nature 625, 321–328 (2024).](https://www.nature.com/articles/s41586-023-06618-z)**
+**LDA**, **LDA score** and **AAS** reference and use cases: [Barrie, W., Yang, Y., Irving-Pease, E.K. et al. Elevated genetic risk for multiple sclerosis emerged in steppe pastoralist populations. Nature 625, 321–328 (2024).](https://www.nature.com/articles/s41586-023-06618-z)
 
 -   Authors:  
     Yaoling Yang (<yaoling.yang@bristol.ac.uk>)  
