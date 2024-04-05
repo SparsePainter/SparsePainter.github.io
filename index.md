@@ -21,7 +21,7 @@ sidebar:
 -   Maintainer:  
     Yaoling Yang (<yaoling.yang@bristol.ac.uk>)
 
-**SparsePainter** is a direct improvement of [ChromoPainter](https://people.maths.bris.ac.uk/~madjl/finestructure-old/chromopainter_info.html) and is orders of magnitudes faster than **ChromoPainter**.
+**SparsePainter** is a direct improvement of [ChromoPainter](https://people.maths.bris.ac.uk/~madjl/finestructure-old/chromopainter_info.html) and is orders of magnitudes faster.
 
 The detailed [installation instructions](https://sparsepainter.github.io/Installation.html), 
 [usages and commands](https://sparsepainter.github.io/Usages.html), and examples are available.  
