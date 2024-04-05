@@ -8,7 +8,7 @@ sidebar:
 
 **SparsePainter GitHub repository:** [https://github.com/YaolingYang/SparsePainter](https://github.com/YaolingYang/SparsePainter)
 
-**PBWTpaint GitHub repository:** [https://github.com/richarddurbin/pbwt](https://github.com/richarddurbin/pbwt)**
+**PBWTpaint GitHub repository:** [https://github.com/richarddurbin/pbwt](https://github.com/richarddurbin/pbwt)
 
 **SparsePainter and PBWTpaint reference and use cases:** [Yang, Y., Durbin, R., Iversen, A.K.N & Lawson, D.J. Sparse haplotype-based fine-scale local ancestry inference at scale reveals recent selection on immune responses. medRxiv (2024).](https://www.medrxiv.org/content/10.1101/2024.03.13.24304206v1.article-info)
 
