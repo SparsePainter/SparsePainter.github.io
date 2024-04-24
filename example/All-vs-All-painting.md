@@ -30,13 +30,13 @@ It is also possible to do All-vs-All painting with SparsePainter, which is sligh
 *  If your input file is in vcf or vcf.gz format:  
 
 ``
-./SparsePainter -reffile donor.vcf.gz -targetfile donor.vcf.gz -popfile allvsall_popnames.txt -mapfile map.txt -namefile refname.txt -out all_vs_all -chunk
+./SparsePainter -reffile donor.vcf.gz -targetfile donor.vcf.gz -popfile allvsall_popnames.txt -mapfile map.txt -namefile refname.txt -out all_vs_all -chunklength -chunkcount
 ``
 
 *  If your input file is in phase of phase.gz format:
 
 ``
-./SparsePainter -reffile donor.phase.gz -targetfile donor.phase.gz -popfile allvsall_popnames.txt -mapfile map.txt -namefile refname.txt -out all_vs_all -chunk
+./SparsePainter -reffile donor.phase.gz -targetfile donor.phase.gz -popfile allvsall_popnames.txt -mapfile map.txt -namefile refname.txt -out all_vs_all -chunklength -chunkcount
 ``
 
 The output file for this example includes ``all_vs_all.chunklength.txt.gz``, ``all_vs_all.chunkcount.txt.gz``, and ``all_vs_all.fixedlambda.txt``.
