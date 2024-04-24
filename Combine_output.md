@@ -10,7 +10,7 @@ To paint large biobanks, it is suggested to split the target samples into multip
 * ``-prob`` (for any storage mode): 
 Retain the first subfile, and then append the rows (excluding the first two rows) of the other subfiles.  
 
-* ``-chunk``:
+* ``-chunklength`` and ``-chunkcount``:
 Retain the first subfile, and then append the rows (excluding the first row) of the other subfiles. To obtain genome-wide chunk length and chunk count, please sum over all chromosomes. 
 
 * ``-aveindpainting``:
