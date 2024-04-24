@@ -10,13 +10,13 @@ The [example dataset](https://github.com/YaolingYang/SparsePainter/tree/main/exa
 * If your input file is in vcf or vcf.gz format:
 
 ``
-./SparsePainter -reffile donor.vcf.gz -targetfile donor.vcf.gz -popfile popnames.txt -mapfile map.txt -namefile refname.txt -out ref_vs_ref -prob -chunk -loo
+./SparsePainter -reffile donor.vcf.gz -targetfile donor.vcf.gz -popfile popnames.txt -mapfile map.txt -namefile refname.txt -out ref_vs_ref -prob -chunklength -chunkcount -loo
 ``
 
 * If your input file is in phase or phase.gz format:
 
 ``
-./SparsePainter -reffile donor.phase.gz -targetfile donor.phase.gz -popfile popnames.txt -mapfile map.txt -namefile refname.txt -out ref_vs_ref -prob -chunk -loo
+./SparsePainter -reffile donor.phase.gz -targetfile donor.phase.gz -popfile popnames.txt -mapfile map.txt -namefile refname.txt -out ref_vs_ref -prob -chunklength -chunkcount -loo
 ``
 
 The output file for this example includes ``ref_vs_ref_prob.txt.gz``, ``ref_vs_ref_chunklength.txt.gz``, ``ref_vs_ref_chunkcount.txt.gz`` and ``ref_vs_ref_fixedlambda.txt``.
