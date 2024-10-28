@@ -10,7 +10,7 @@ sidebar:
 
 **PBWTpaint GitHub repository:** [https://github.com/richarddurbin/pbwt](https://github.com/richarddurbin/pbwt)
 
-**SparsePainter and PBWTpaint reference and use cases:** [Yang, Y., Durbin, R., Iversen, A.K.N & Lawson, D.J. Sparse haplotype-based fine-scale local ancestry inference at scale reveals recent selection on immune responses. medRxiv (2024).](https://www.medrxiv.org/content/10.1101/2024.03.13.24304206v1.article-info)
+**SparsePainter and PBWTpaint reference and use cases:** [Yang, Y., Durbin, R., Iversen, A.K.N & Lawson, D.J. Sparse haplotype-based fine-scale local ancestry inference at scale reveals recent selection on immune responses. medRxiv (2024).](https://www.medrxiv.org/content/10.1101/2024.03.13.24304206v2)
 
 **LDA, LDA score and AAS reference and use cases:** [Barrie, W., Yang, Y., Irving-Pease, E.K. et al. Elevated genetic risk for multiple sclerosis emerged in steppe pastoralist populations. Nature 625, 321–328 (2024).](https://www.nature.com/articles/s41586-023-06618-z)
 
@@ -21,7 +21,7 @@ sidebar:
 -   Maintainer:  
     Yaoling Yang (<yaoling.yang@bristol.ac.uk>)
 
--   Version: 1.2.0
+-   Version: 1.2.1
 
 **SparsePainter** is a direct improvement of [ChromoPainter](https://people.maths.bris.ac.uk/~madjl/finestructure-old/chromopainter_info.html) and is orders of magnitudes faster.
 
