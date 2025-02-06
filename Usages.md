@@ -43,6 +43,8 @@ To run **SparsePainter**, enter the following command:
 
 * **-chunkcount** Output the expected number of copied chunks of each local ancestry for each target sample. The output is a gzipped text file (.txt.gz).
 
+* **-sample** Output the sampled reference haplotypes' indices for each target sample at each SNP. The output is a gzipped text file (.txt.gz), which is the same format as the `.samples.out` file of [ChromoPainter](https://github.com/danjlawson/finestructure4), and is the required input file to run [GLOBETROTTER](https://github.com/hellenthal-group-UCL/GLOBETROTTER) and [fastGLOBETROTTER](https://github.com/hellenthal-group-UCL/fastGLOBETROTTER).
+
 * **-aveSNP** Output the average local ancestry probabilities for each SNP. The output is a text file (.txt).
 
 * **-aveind** Output the average local ancestry probabilities for each target individual. The output is a text file (.txt).
@@ -85,6 +87,8 @@ To run **SparsePainter**, enter the following command:
 
 * **-dp [integer>0]** The decimal places of the output of local ancestry probabilities (**default=2**). This also controls the size of the output file for local ancestry probabilities.
 
+* **-nsample [integer>0]**: The number of different sampled reference haplotypes for each target haplotype at each SNP (**default=10**) implemented by command ``-sample``.
+
 * **-rmsethre [number&isin(0,1)]** The upper bound that the root mean squared error of the estimated local ancestry probabilities (**default=0.01**) when storing them in linear form by argument, i.e. ``-probstore linear``.
 
 * **-relafrac [number&isin;(0,1)]** The proportion of the total number of SNPs shared between a reference and target haplotype sample (**default=0.2**). The reference sample will be removed under the leave-one-out (``-loo``) and remove relative (``-rmrelative``) modes.
@@ -106,3 +110,14 @@ To run **SparsePainter**, enter the following command:
 * **-window [number>0]** The window for calculating LDA score (LDAS) in centiMorgan (**default=4**).
 
 * **-matchfile [file]** The file name of the set-maximal match file which is the output of [pbwt -maxWithin](https://github.com/richarddurbin/pbwt). This can only be used for painting reference samples against themselves. When ``matchfile`` is given, there is no need to provide ``reffile`` and ``targetfile``, because all the match information required for painting is contained in ``matchfile``. Using set-maximal matches is not recommended because set-maximal matches are extremely sparse and will significantly reduce the accuracy, despite saving compute time.
+
+# Generate mapfile with fixed recombination rate
+When analysing human genomes, we suggest using the real human recombination map (available from various online resources) which has varying recombination rates throughout the genome. Please follow the file formats of `mapfile` for generating it.  
+
+In certain scenarios, for example when analysing non-human species, you may use a fixed recombination rate throughout the genome. Below we provide the commands for generating the ``mapfile`` from ``input.vcf`` with a fixed recombination rate of 1e-6 cM/bp.  
+
+```
+bcftools query -f '%POS\n' input.vcf > sites.txt  
+echo -e "pd\tgd" > map.txt  
+awk '{print $1"\t"1e-6*$1}' sites.txt >> map.txt  
+```
