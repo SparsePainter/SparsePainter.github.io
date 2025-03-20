@@ -25,7 +25,7 @@ sidebar:
 -   Maintainer:  
     Yaoling Yang (<yaoling.yang@bristol.ac.uk>)
 
--   Version: 1.3.0
+-   Version: 1.3.1
 
 **SparsePainter** is a direct improvement of [ChromoPainter](https://people.maths.bris.ac.uk/~madjl/finestructure-old/chromopainter_info.html) and is orders of magnitudes faster.
 
