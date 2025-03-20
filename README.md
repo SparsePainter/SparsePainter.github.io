@@ -3,4 +3,4 @@ Here we created the website for [SparsePainter](https://sparsepainter.github.io/
 
 The source codes for SparsePainter are available at the [SparsePainter original GitHub repository](https://github.com/YaolingYang/SparsePainter).
 
--   Reference: [Yang, Y., Durbin, R., Iversen, A.K.N & Lawson, D.J. Sparse haplotype-based fine-scale local ancestry inference at scale reveals recent selection on immune responses. medRxiv (2024).](https://www.medrxiv.org/content/10.1101/2024.03.13.24304206v1.article-info)
+-   **Reference: [Yang, Y., Durbin, R., Iversen, A.K.N & Lawson, D.J. Sparse haplotype-based fine-scale local ancestry inference at scale reveals recent selection on immune responses. Nature Communications 16, 2742 (2025).](https://www.nature.com/articles/s41467-025-57601-3)**
