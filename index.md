@@ -4,7 +4,9 @@ sidebar:
   nav: "docs"
 ---
 
-[**SparsePainter**](https://github.com/YaolingYang/SparsePainter) is an efficient tool for local ancestry inference (LAI) coded in C++. It extends **PBWT** algorithm to find K longest matches at each position, and uses the **Hash Map** structure to implement the forward and backward algorithm in the Hidden Markov Model (HMM) leveraging the sparsity of haplotype matches. SparsePainter can infer **fine-scale local ancestry** (per individual per SNP) and **genome-wide total ancestry**, it also enables efficiently calculating [**Linkage Disequilibrium of Ancestry (LDA), LDA score (LDAS)**](https://github.com/YaolingYang/LDAandLDAscore) and [**Ancestry Anomaly Score (AAS)**](https://github.com/danjlawson/ms_paper) for understanding the population structure, evolution, selection, etc.. SparsePainter also produces output required to run [GLOBETROTTER](https://github.com/hellenthal-group-UCL/GLOBETROTTER) and [fastGLOBETROTTER](https://github.com/hellenthal-group-UCL/fastGLOBETROTTER).  
+[**SparsePainter**](https://github.com/YaolingYang/SparsePainter) is an efficient tool for local ancestry inference (LAI) coded in C++. It extends **PBWT** algorithm to find K longest matches at each position, and uses the **Hash Map** structure to implement the forward and backward algorithm in the Hidden Markov Model (HMM) leveraging the sparsity of haplotype matches. SparsePainter can infer **fine-scale local ancestry** (per individual per SNP) and **genome-wide total ancestry**, it also enables efficiently calculating [**Linkage Disequilibrium of Ancestry (LDA), LDA score (LDAS)**](https://github.com/YaolingYang/LDAandLDAscore) and [**Ancestry Anomaly Score (AAS)**](https://github.com/danjlawson/ms_paper) for understanding the population structure, evolution, selection, etc.
+
+SparsePainter also produces output required to run [**GLOBETROTTER**](https://github.com/hellenthal-group-UCL/GLOBETROTTER), [**fastGLOBETROTTER**](https://github.com/hellenthal-group-UCL/fastGLOBETROTTER) and [**SOURCEFIND**](https://github.com/will-camb/misc/blob/main/sparsepainter2sourcefind.py) ([example codes](https://github.com/will-camb/misc/blob/main/sparsepainter2sourcefind.py) to run SOURCEFIND based on SparsePainter output are available).   
 
 **SparsePainter GitHub repository:** [https://github.com/YaolingYang/SparsePainter](https://github.com/YaolingYang/SparsePainter)
 
@@ -17,6 +19,8 @@ sidebar:
 **Pipeline for** [biobank-scale painting](https://github.com/YaolingYang/SparsePainter/tree/main/painting-pipeline/standard%20painting) and [computing haplotype components (HCs)](https://github.com/YaolingYang/SparsePainter/tree/main/painting-pipeline/Compute%20haplotype%20components%20(HCs)) **are available.**
 
 **PBWTpaint GitHub Repository:** [https://github.com/richarddurbin/pbwt](https://github.com/richarddurbin/pbwt)
+
+**A use case of HCs:** [Yang, Y., Lawson, D.J. From individuals to ancestries: towards attributing trait variation to haplotypes. medRxiv (2025), doi: https://doi.org/10.1101/2025.03.13.25323895.](https://www.medrxiv.org/content/10.1101/2025.03.13.25323895v1)
 
 -   Authors:  
     Yaoling Yang (<yaoling.yang@bristol.ac.uk>)  
