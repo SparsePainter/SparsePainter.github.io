@@ -23,11 +23,11 @@ SparsePainter also produces output required to run [**GLOBETROTTER**](https://gi
 **A use case of HCs:** [Yang, Y., Lawson, D.J. From individuals to ancestries: towards attributing trait variation to haplotypes. medRxiv (2025), doi: https://doi.org/10.1101/2025.03.13.25323895.](https://www.medrxiv.org/content/10.1101/2025.03.13.25323895v1)
 
 -   Authors:  
-    Yaoling Yang (<yaoling.yang@bristol.ac.uk>)  
+    Yaoling Yang (<yaolingyang1998@gmail.com>)  
     Daniel Lawson (<dan.lawson@bristol.ac.uk>)
 
 -   Maintainer:  
-    Yaoling Yang (<yaoling.yang@bristol.ac.uk>)
+    Yaoling Yang (<yaolingyang1998@gmail.com>)
 
 -   Version: 1.3.2
 
